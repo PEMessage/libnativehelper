@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.10)
 project(libnativehelper LANGUAGES C)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON CACHE BOOL "" FORCE)
+
 # Set C standard
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
